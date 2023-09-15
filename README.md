@@ -1,3 +1,6 @@
+README.md file:
+
+```markdown
 # NodeJS MySQL Query Executor
 
 The **NodeJS MySQL Query Executor** is a simple Node.js command-line application that allows users to interactively execute SQL queries on a MySQL database. This project leverages the `mysql2` library for MySQL database connectivity and the `readline` library for user input.
@@ -20,62 +23,49 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository to your local machine:
 
-`git clone https://github.com/your-username/NodeJS_MySQL.git`
-
+```bash
+git clone https://github.com/your-username/NodeJS_MySQL.git
+```
 
 2. Navigate to the project directory:
 
-`cd NodeJS_MySQL`
-
+```bash
+cd NodeJS_MySQL
+```
 
 3. Install the project dependencies:
 
-`npm install`
-
+```bash
+npm install
+```
 
 ## Usage
 
 1. Configure the MySQL database connection by modifying the following lines in `index.js`:
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd NodeJS_MySQL
-   ```
-
-3. Install the project dependencies:
-
-   ```bash
-   npm install
-   ```
-
-## Usage
-
-1. Configure the MySQL database connection by modifying the following lines in `index.js`:
-
-   ```javascript
-   const connection = mysql.createConnection({
-     host: 'localhost',       // Your MySQL host
-     user: 'root',            // Your MySQL username
-     password: 'YourPassword', // Your MySQL password
-     database: 'food',        // Your MySQL database
-     waitForConnections: true,
-     connectionLimit: 10,
-     queueLimit: 0
-   });
-   ```
+```javascript
+const connection = mysql.createConnection({
+  host: 'localhost',       // Your MySQL host
+  user: 'root',            // Your MySQL username
+  password: 'YourPassword', // Your MySQL password
+  database: 'food',        // Your MySQL database
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
+});
+```
 
 2. Run the application:
 
-   ```bash
-   node index.js
-   ```
+```bash
+node index.js
+```
 
 3. You will be prompted to enter your SQL query. Type your query and press Enter.
 
 4. The application will execute the query and display the results or any error messages.
 
-5. After each query execution, you will be asked if you want to enter another query. Type yes to continue or no to exit.
+5. After each query execution, you will be asked if you want to enter another query. Type "yes" to continue or "no" to exit.
 
 6. When you are done, the application will automatically close the MySQL connection and exit.
 
@@ -96,5 +86,3 @@ Mohammed Jawad Pasha
 
 Thanks to the creators of the `mysql2` and `readline` libraries for making this project possible.
 ```
-
-I've corrected the formatting and added code blocks where appropriate to improve readability.

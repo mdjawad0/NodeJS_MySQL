@@ -1,6 +1,3 @@
-README.md file:
-
-```markdown
 # NodeJS MySQL Query Executor
 
 The **NodeJS MySQL Query Executor** is a simple Node.js command-line application that allows users to interactively execute SQL queries on a MySQL database. This project leverages the `mysql2` library for MySQL database connectivity and the `readline` library for user input.

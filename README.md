@@ -1,4 +1,3 @@
-```markdown
 # NodeJS MySQL Query Executor
 
 The **NodeJS MySQL Query Executor** is a simple Node.js command-line application that allows users to interactively execute SQL queries on a MySQL database. This project leverages the `mysql2` library for MySQL database connectivity and the `readline` library for user input.
@@ -21,9 +20,22 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/NodeJS_MySQL.git
-   ```
+`git clone https://github.com/your-username/NodeJS_MySQL.git`
+
+
+2. Navigate to the project directory:
+
+`cd NodeJS_MySQL`
+
+
+3. Install the project dependencies:
+
+`npm install`
+
+
+## Usage
+
+1. Configure the MySQL database connection by modifying the following lines in `index.js`:
 
 2. Navigate to the project directory:
 

@@ -50,7 +50,7 @@ const connection = mysql.createConnection({
 
 Run the application:
 
-`node index.js`
+node index.js
 
 You will be prompted to enter your SQL query. Type your query and press Enter.
 
@@ -61,16 +61,15 @@ After each query execution, you will be asked if you want to enter another query
 When you are done, the application will automatically close the MySQL connection and exit.
 
 Example
-
 Here's an example of how to use the NodeJS MySQL Query Executor:
 
 Run the application using node index.js.
-Enter SELECT * FROM users; as your SQL query.
+Enter SELECT * FROM products; as your SQL query.
 The application will display the query results.
 You can choose to enter another query or exit the application.
 
 Author
-`Mohammed Jawad Pasha`
+Mohammed Jawad Pasha
 
 Acknowledgments
 Thanks to the creators of the mysql2 and readline libraries for making this project possible.

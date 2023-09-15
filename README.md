@@ -85,4 +85,3 @@ Mohammed Jawad Pasha
 ## Acknowledgments
 
 Thanks to the creators of the `mysql2` and `readline` libraries for making this project possible.
-```
